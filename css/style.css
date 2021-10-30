@@ -58,11 +58,6 @@ section{
 .overlay h1 .bolder{
 	font-weight: bold;
 }
-.parag{
-	background-color: #f9f9f9;
-	color: #fff;
-}
-
 .boxContainer{
 	margin: auto;
 	margin-top: -11%;
@@ -730,6 +725,11 @@ section{
   letter-spacing: 0.1rem;
 }
 
+.card-btn a, .card-btn2 a, .card-btn3 a{
+  text-decoration: none;
+  color: #fff;
+}
+
 .card-btn span {
   margin-left: 1rem;
   transition: 0.2s;
@@ -741,12 +741,15 @@ section{
   background-color: #f9f9f9;
 }
 
+.card-btn a:hover, .card-btn2 a:hover, .card-btn3 a:hover,
+.card-btn a:active, .card-btn2 a:active, .card-btn3 a:active {
+  color: #010245;
+}
+
 .card-btn:hover span,
 .card-btn:active span {
   margin-left: 1.5rem;
 }
-
-
 
 .title{
     font-size: 30px;
@@ -1033,7 +1036,7 @@ form .form-row .textarea{
 
 .reveal{
 	position: relative;
-	transform: translateY(150px);
+	transform: translateY(100px);
 	opacity: 0;
 	transition: all 0.5s ease;
 }
